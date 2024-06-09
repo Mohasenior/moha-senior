@@ -1,0 +1,243 @@
+/* variable is here */
+:root {
+  --general-color: #3c3a47;
+  --heading-1: 3.5rem;
+  --heading-2: 1.75rem;
+  --bg-large-contact: #3c3a47;
+  --inputs-bg: #ffffff1a;
+  --focused-color: #ffffff33;
+  --border-color: #ffffffcc;
+
+}
+/* general selecting */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 18px;
+}
+body {
+  font-family: poppins, sans-serif;
+  line-height: 1.5;
+  color: var(--general-color)
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav .navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+header nav .navigation .header-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  list-style: none;
+  align-items: center;
+  
+}
+.landing {
+  text-align: center;
+}
+
+.header-nav ul li a {
+  text-decoration: none;
+  color: #3c3a47;
+}
+h1 {
+  margin: 10rem 0rem 1rem 0rem;
+  font-size: var(--heading-1);
+  font-weight: 700;
+  letter-spacing: -2px;
+  text-align: center;
+}
+
+
+h2 {
+  font-size: var(--heading-2);
+  font-weight: 300;
+  color: 3c3a47cc;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+a {
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  color: #3c3a47;
+  
+}
+.btn {
+  border: 1px solid #4f4914;
+  padding: 1.1rem 2.1rem;
+  
+}
+ /* psuedo classes */
+header nav .navigation .header-nav ul li a:hover {
+  border-bottom: 1.5px solid var(--general-color);
+}
+.btn:hover {
+  background-color: #3c3a47;
+  color: #fff;
+}
+ #gallery {
+  width: 80%;
+  margin: auto;
+  margin-top: 90px;
+  text-align: center;
+ }
+ 
+
+ #gallery header , #footer .visits  {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20%;
+  margin-top: 20px;
+ }
+
+
+ #gallery .header {
+  margin: 8rem 0rem .5rem 0rem;
+  margin-bottom: -170px;
+ }
+
+ #gallery h2 {
+  font-size: var(--heading-2);
+  margin-bottom: 2.5rem;
+ }
+
+.picture img {
+  width: 350px;
+  margin-bottom: 2rem;
+}
+
+ .gallery-pictures {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3.5rem;
+ }
+
+.number {
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.picture {
+  text-align: left;
+}
+
+h4 {
+  margin-bottom: 2rem;
+}
+
+.footer-text, #footer p {
+  margin: 2rem 0rem 3rem 0rem ;
+}
+
+/* style contact us */
+.contact-container {
+  background-color: var(--bg-large-contact);
+  width: 85%;
+  margin: 0 auto;
+  color: white;
+}
+
+.small-container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 5rem 0rem;
+}
+
+.small-container p {
+  font-weight: 200;
+  line-height: 2.5px;
+  text-align: center;
+  font-size: 1.75rem;
+} 
+
+.small-container h3{
+  font-weight: 700;
+  line-height: 2.5px;
+  margin-top: 100px;
+  text-align: center;
+  font-size:  3rem;
+} 
+
+form {
+  margin-top: 60px;
+}
+
+form input , form textarea{
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 20px;
+  resize: none;
+  background-color: var(--inputs-bg);
+  color: white;
+  font-size: 14px;
+}
+
+form input:focus, form textarea:focus {
+  background-color: var(--focused-color);
+}
+
+form label {
+  text-transform: uppercase;
+}
+
+form div {
+  margin-bottom: 40px;
+}
+
+#contact button {
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--border-color);
+  width: 100%;
+  padding: 20px;
+  font-size: 14px;
+}
+span {
+  font-weight: 600;
+  color: rgb(235, 78, 78)
+}
+
+#footer {
+  width: 85%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#footer footer {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.visit {
+  font-size: 1.30rem;
+}
+.img {
+  font-size: 25px;
+  row-gap: 5rem;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.location {
+ font-size: .80rem;
+ margin-left: 40px;
+}
+
+#footer h3 {
+  font-size: 28px;
+}
